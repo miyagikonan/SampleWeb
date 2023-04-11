@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.profile {
+    background-image: url(../image/umi.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.school {
+    background-image: url(../image/mori.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.hobby {
+    background-image: url(../image/kazan.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: #333333cb;
+    color: #fff;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    list-style-type: none;
+    margin: 0 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: solid;
+}
+
+a:hover {
+    color: rgb(255, 252, 85);
+}
+
+.profile-2 {
+    background-color: rgba(127, 255, 212, 0.877);
+    border-radius: 10px;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 0 10px 10px 10px;
+}
+
+.school-2 {
+    background-color: rgba(127, 255, 127, 0.877);
+    border-radius: 10px;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 0 10px 10px 10px;
+}
+
+.hobby-2 {
+    background-color: rgba(253, 92, 92, 0.877);
+    border-radius: 10px;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 0 10px 10px 10px;
+    color: white;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+dt {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.yomi {
+    font-size: 20px;
+    border-bottom: none;
+}
+
+dd {
+    font-size: 30px;
+    text-align: center;
+}
+
+.blue {
+    border-bottom: dashed 3px blue;
+}
+
+.green {
+    border-bottom: dashed 3px green;
+}
+
+.red {
+    border-bottom: dashed 3px crimson;
+}
+
+h3 {
+    font-size: 30px;
+    display: inline-flex;
+}
+
+.hobby-da-tu {
+    margin: 30px 20px 10px 20px;
+    border-bottom: dashed 3px crimson;
+    padding: 35px 20px;
+}
+
+.hobby-biriya-do {
+    margin: 30px 20px 10px 20px;
+    border-bottom: dashed 3px crimson;
+    padding: 35px 20px;
+
+}
+
+.hobby-soccer {
+    margin: 30px 20px 10px 20px;
+    border-bottom: dashed 3px crimson;
+    padding: 35px 20px;
+
+}
+
+.hobby-draibu {
+    margin: 30px 20px 10px 20px;
+    border-bottom: dashed 3px crimson;
+    padding: 35px 20px;
+
+}
+
+.hobby-sinrei {
+    margin: 30px 20px 10px 20px;
+    border-bottom: dashed 3px crimson;
+    padding: 35px 20px;
+
+}
+
+.hobby-da-tu img {
+    float: left;
+    width: 385px;
+    height: auto;
+    margin: 20px;
+}
+
+.hobby-biriya-do img {
+    float: right;
+    width: 385px;
+    height: auto;
+    margin: 20px;
+}
+
+.hobby-soccer img {
+    float: left;
+    width: 385px;
+    height: auto;
+    margin: 20px;
+}
+
+.hobby-draibu img {
+    float: right;
+    width: 385px;
+    height: auto;
+    margin: 20px;
+}
+
+.hobby-sinrei img {
+    float: left;
+    width: 385px;
+    height: auto;
+    margin: 20px;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 25px;
+    background-color: rgb(43, 255, 0);
+}
+
+th {
+    border: 2px solid black;
+    border-right: none;
+}
+
+td {
+    border: 2px solid black;
+    background-color: rgba(197, 255, 131, 0.781);
+}
